@@ -16,6 +16,7 @@ alias la='ls -a'
 
 alias gs='git status'
 alias pp='git push'
+alias add='git add -u'
 
 alias vim='winpty nvim'
 alias nvim='winpty nvim'
