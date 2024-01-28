@@ -2,4 +2,6 @@
 *
 # But not bashrc
 !.bashrc
-
+!.gitignore
+!.functions
+!.colors

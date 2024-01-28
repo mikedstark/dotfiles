@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gg(){
+	go build $1
+}
+
+gc(){
+	git commit -m "$1"
+}
