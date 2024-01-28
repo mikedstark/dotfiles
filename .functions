@@ -1,9 +1,16 @@
 #!/bin/bash
 
+tt(){
+	#todo Set Title
+	echo "Title -->" $1
+}
+
+# Build go
 gg(){
 	go build $1
 }
 
+# Commit blazingly fast
 gc(){
 	git commit -m "$1"
 }
