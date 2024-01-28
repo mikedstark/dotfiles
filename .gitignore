@@ -1,8 +1,17 @@
 # Ignore everything
-*
+/*
+
 # But not bashrc
 !.bashrc
 !.gitignore
 !.functions
 !.colors
 !README.md
+
+# Neovim config
+!/AppData/
+/AppData/*
+!/AppData/Local/
+/AppData/Local/*
+!/AppData/Local/nvim/
+/AppData/Local/nvim/lazy-lock.json
